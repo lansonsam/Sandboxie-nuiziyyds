@@ -10,6 +10,10 @@ MsgSbieRelease
 Sandboxie/msgs/Text-English-1033.txt
 *.mc
 
+# Keep build dependencies (overrides x86/, x64/, *.obj, Release/ rules)
+!Sandboxie/common/NtCRT/**
+!Sandboxie/install/release/**
+
 # User-specific files
 *.rsuser
 *.suo
